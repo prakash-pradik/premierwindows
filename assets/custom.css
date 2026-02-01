@@ -137,17 +137,17 @@ button{
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(0,0,0,0), rgb(0, 24, 69));
+  background: linear-gradient(to left, rgba(255,255,255,0), rgb(255,255,255));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(0,0,0,0), rgb(0, 24, 69));
+  background: linear-gradient(to right, rgba(255,255,255,0), rgb(255,255,255));
 }
 
 .logo_items {
   display: flex;
-  animation: 20s slides infinite linear;
+  animation: 10s slides infinite linear;
 }
 
 .logos:hover .logo_items {
@@ -156,5 +156,13 @@ button{
 
 .logo_items img{
   height: 100px;
-  padding: 0px 25px;
+  padding: 0px 10px;
+}
+
+.abt_img{
+  width: 50px;
+  filter: invert(1);
+}
+.qr_img{
+  width: 120px;
 }

@@ -266,10 +266,8 @@
 
   <!-- From Uiverse.io by reglobby -->
   <div class="section">
-    <div class="cube-loader">
-      <div class="cube"></div>
-      <div class="cube"></div>
-      <div class="cube"></div>
+    <div class="cube-loader1 flex justify-center items-center gap-5">
+      <img src="assets/images/logo.png" data-aos="flip-left">
     </div>
   </div>
 
@@ -310,7 +308,7 @@
         <div class="flex flex-col gap-4 sm:gap-5">
           <div class="flex justify-start items-center gap-3 sm:gap-5">
             <i class="ri-map-pin-fill text-[25px] leading-[25px] text-secondary-white"></i>
-            <p class="text-body2 text-secondary-white">
+            <p class="text-body2 text-secondary-white address-text">
               TS No: 3718/3, South 4th Street, <br/>
               Near Trichy Building Materials,
               Pudukkottai - 622001
@@ -333,10 +331,13 @@
             <p class="text-body2 text-secondary-white">9:00 AM-6:00 PM</p>
           </div>
         </div>
+
+        
+
       </div>
     </div>
 
-    <div data-aos="flip-left" data-aos-duration="1200" class="w-full lg:w-[40%] p-5 rounded-[20px] flex flex-col">
+    <!-- <div data-aos="flip-left" data-aos-duration="1200" class="w-full lg:w-[40%] p-5 rounded-[20px] flex flex-col">
       <h3 class="text-secondary-white text-[22px] sm:text-[22px] xl:text-[22px] leading-7 sm:leading-[34px] font-bold headline text-center">
         GST: 33EUSPK8681R1ZB
       </h3>
@@ -350,10 +351,11 @@
           <p class="text-body2 text-secondary-white pt-10">Scan the QR code to connect with us on WhatsApp.</p>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <div data-aos="flip-left" data-aos-duration="1200" class="w-full lg:w-[40%] p-5 rounded-[20px] flex flex-col gap-10 sm:gap-[60px] border-2 border-secondary-dark">
       <div class="flex flex-col gap-6 sm:gap-[30px]">
+        <!--- Factory Address --->
         <div>
           <h3
             class="text-secondary-cream text-[22px] sm:text-[28px] xl:text-[36px] leading-7 sm:leading-[34px] xl:leading-[46px] font-bold headline">
@@ -364,7 +366,7 @@
         <div class="flex flex-col gap-4 sm:gap-5">
           <div class="flex justify-start items-center gap-3 sm:gap-5">
             <i class="ri-map-pin-fill text-[25px] leading-[25px] text-secondary-white"></i>
-            <p class="text-body2 text-secondary-white">
+            <p class="text-body2 text-secondary-white address-text">
               100A Gandhi Road, Alangudi,<br/>
               Pudukkottai Dist - 622301
             </p>
@@ -386,44 +388,38 @@
             <p class="text-body2 text-secondary-white">9:00 AM-6:00 PM</p>
           </div>
         </div>
+        
       </div>
 
     </div>
 
-    <!-- <div data-aos="fade-right" data-aos-duration="1200" class="w-full lg:w-[60%]">
+    <div data-aos="fade-right" data-aos-duration="1200" class="w-full lg:w-[60%]">
       <div class="">
-        <form class="space-y-4 sm:space-y-5">
-          <div class="grid md:grid-cols-2 gap-4 sm:gap-5">
-            <div class="relative">
-              <input type="text" name="name" placeholder="first name"
-                class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none" />
+        <form class="space-y-4 sm:space-y-5" action="https://formsubmit.co/dontgiveupfreddie@gmail.com" method="POST" id="contactForm" >
 
-              <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
-            </div>
+          <div class="relative">
+            <input type="text" name="name" placeholder="Your Name"
+              class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none" />
 
-            <div class="relative">
-              <input type="text" name="last-name" placeholder="last name"
-                class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none" />
-              <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
-            </div>
+            <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
           </div>
 
           <div class="grid md:grid-cols-2 gap-4 sm:gap-5">
             <div class="relative">
-              <input type="number" name="phone" placeholder="phone number"
+              <input type="number" name="phone" placeholder="Phone Number"
                 class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none" />
               <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
             </div>
 
             <div class="relative">
-              <input type="email" placeholder="email" name="email"
+              <input type="email" placeholder="Email Address" name="email"
                 class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none" />
               <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
             </div>
           </div>
 
           <div class="relative">
-            <textarea name="message" placeholder="write message" rows="5"
+            <textarea name="message" placeholder="Write Message" rows="5"
               class="w-full py-[10px] md:py-[15px] px-3 md:px-4 rounded-[15px] bg-secondary-cream text-black border-2 border-secondary-dark focus:outline-none"></textarea>
             <p class="error-message hidden text-red-500 text-sm mt-2 ml-4"></p>
           </div>
@@ -434,7 +430,8 @@
           </button>
         </form>
       </div>
-    </div> -->
+    </div>
+
   </div>
 
   <div data-aos="fade-up" data-aos-duration="1200" class="pb-2 pt-10 sm:pt-[50px]">
@@ -507,6 +504,8 @@
           <div
             class="flex justify-start md:justify-between flex-col md:flex-row items-start md:items-center pb-[30px] gap-[30px] md:gap-0">
             <img src="./assets/logo.png" alt="logo" class="w-[116px]" />
+
+          <img src="./assets/images/product/footer-logo.png" alt="logo" class="w-35" />
 
             <div
               class="flex flex-col sm:flex-row justify-start sm:justify-center items-start sm:items-center gap-[15px] sm:gap-[30px]">

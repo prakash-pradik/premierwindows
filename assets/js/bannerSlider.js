@@ -5,7 +5,7 @@ import "swiper/css";
 
 const mainSwiper = new Swiper(".bannerSlider", {
   spaceBetween: 0,
-  effect: "fade",
+  effect: "slide",
   loop: true,
   speed: 3000,  
   

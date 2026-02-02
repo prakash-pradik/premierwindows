@@ -166,3 +166,42 @@ button{
 .qr_img{
   width: 120px;
 }
+
+
+/* door animation */
+.door-stage {
+  position: relative;
+  perspective: 900px;
+}
+
+.door-stage {
+  animation: openDoors 2s ease forwards;
+}
+
+@keyframes openDoors {
+  to {}
+}
+
+.left { animation: leftOpen 2s forwards; }
+.right { animation: rightOpen 2s forwards; }
+
+@keyframes leftOpen {
+  to { transform: rotateY(-80deg); }
+}
+@keyframes rightOpen {
+  to { transform: rotateY(80deg); }
+}
+
+
+.materiel_text{
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.w-35{
+  width: 35%;
+}
+
+p.address-text {
+    min-height: 72px;
+}
